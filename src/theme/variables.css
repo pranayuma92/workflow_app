@@ -75,3 +75,62 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
+
+/*ion-content {
+  --background: #f9f9f9;
+}
+
+.sc-ion-card-md-h {
+  --background: #fff;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+
+:root,
+:root[mode='md'],
+:root[mode='ios'] {
+  --ion-font-family: 'Montserrat';
+  font-family: var(--ion-font-family) !important;
+
+}
+
+.has-padding {
+  padding: 10px
+}
+
+ion-list.list-header ion-list-header {
+  font-size: 22px;
+  font-weight: 600;
+  min-height: 20px;
+}
+.recommend-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+.recommend-wrapper .child {
+  padding: 20px 10px;
+}
+
+.recommend-wrapper .child:last-child {
+  padding-right: 0;
+}
+
+.parent-rec-wrapper .item-native .item-inner {
+  padding: 0!important;
+}
+
+ion-toolbar {
+  --ion-toolbar-background-color: transparent;
+  --ion-color-base: transparent !important;
+}
+
+.translucent {
+  --border-color : #fff;
+  --background: #fff;
+}
+
+.av-p {
+  padding: 15px;
+}
